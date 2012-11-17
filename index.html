@@ -53,43 +53,61 @@
 
             <!-- Examples -->
             <section class="row-fluid images">
-                <?php
-                    // The image
-                    $image = 'img/photo.jpg';
-                    // Pathinfo
-                    $pathinfo = pathinfo( $image );
-                    $filename = $pathinfo['filename'];
-                ?>
-
+                
                 <!-- Original -->
                 <div class="pull-left image">
-                    <div class="caption">
-                        <span style="top: 6px;">Original</span>
-                    </div>
-                    <img src="<?php echo $image; ?>" class="filter" width="306" height="306" />
+                    <div class="caption"><span style="top: 6px;">Original</span></div>
+                    <img src="img/photo.jpg" width="306" height="306" />
                 </div>
 
-                <!-- Filtered Images -->
-                <?php
-                    // Let's create an array to demonstrate each filter
-                    $filters = array( '1977', 'Brannan', 'Gotham', 'Hefe', 'Inkwell', 'Lord Kelvin', 'Nashville', 'X-PRO II' );
-                    foreach ( $filters as $filter ) {
-                        ?>
-                        <div class="pull-left image preload">
-                            <div class="caption">
-                                <span><?php echo $filter; ?></span>
-                                <form method="post" action="export.php" enctype="multipart/form-data">
-                                    <input type="hidden" name="data" class="js-data" value="" />
-                                    <input type="hidden" name="filename" value="<?php echo $filename; ?>" />
-                                    <input type="hidden" name="filter" value="<?php echo $filter; ?>" />
-                                    <input type="submit" name="save" class="btn" value="Download" />
-                                </form>
-                            </div>
-                            <img src="<?php echo $image; ?>" class="filter" width="306" height="306" data-filter="<?php echo $filter; ?>" />
-                        </div>
-                        <?php
-                    }
-                ?>
+                <!-- 1977 -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">1977</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="1977" width="306" height="306" />
+                </div>
+
+                <!-- Brannan -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Brannan</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Brannan" width="306" height="306" />
+                </div>
+
+                <!-- Gotham -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Gotham</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Gotham" width="306" height="306" />
+                </div>
+
+                <!-- Hefe -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Hefe</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Hefe" width="306" height="306" />
+                </div>
+
+                <!-- Inkwell -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Inkwell</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Inkwell" width="306" height="306" />
+                </div>
+
+                <!-- Lord Kelvin -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Lord Kelvin</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Lord Kelvin" width="306" height="306" />
+                </div>
+
+                <!-- Nashville -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">Nashville/span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="Nashville" width="306" height="306" />
+                </div>
+
+                <!-- X-PRO II -->
+                <div class="pull-left image">
+                    <div class="caption"><span style="top: 6px;">X-PRO II</span></div>
+                    <img src="img/photo.jpg" class="filter" data-filter="X-PRO II" width="306" height="306" />
+                </div>
+
             </section>
 
             <!-- Usage -->
