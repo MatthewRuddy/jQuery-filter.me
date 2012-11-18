@@ -47,10 +47,8 @@
         base.process = function() {
 
             // Check for canvas support before continuing
-            if ( !base.canvas.getContext ) {
-                alert( 'Canvas is not supported in your browser.' );
+            if ( !base.canvas.getContext ) 
                 return;
-            }
 
             // Let's go!
             var image = new Image();
