@@ -50,5 +50,5 @@ jQuery(document).ready(function($) {
 
 <hr>
 <h3>Little about me</h3>
-<p>I'm a 19 year old aspiring entrepeneur and web developer based in Dublin, Ireland. Having decided to turn down university in the Ireland &amp; the UK, I've set out to pursue startup success and make great connections. Love creating things with emerging web technologies, just for the pure challenge of it!</p>
+<p>I'm a 19 year old aspiring entrepeneur and web developer based in Dublin, Ireland. Having decided to turn down university in Ireland &amp; the UK, I've set out to pursue startup success and make great connections. Love creating things with emerging web technologies, just for the pure challenge of it!</p>
 <p>Currently I'm working hard with my first major venture, Riva Slider, which has proven very successful so far. I also hope to create more awesome tools in the future, and to prove that there is a life outside of third level education for young tech entrepeneurs here in Ireland. <b>Please follow me and Riva Slider on Twitter!</b> Feel free to fire any questions my way, I'd be happy to answer them.</p>
