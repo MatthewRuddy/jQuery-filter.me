@@ -52,9 +52,3 @@ jQuery(document).ready(function($) {
 <h3>Little about me</h3>
 <p>I'm a 19 year old aspiring entrepeneur and web developer based in Dublin, Ireland. Having decided to turn down university in the Ireland &amp; the UK, I've set out to pursue startup success and make great connections. Love creating things with emerging web technologies, just for the pure challenge of it!</p>
 <p>Currently I'm working hard with my first major venture, Riva Slider, which has proven very successful so far. I also hope to create more awesome tools in the future, and to prove that there is a life outside of third level education for young tech entrepeneurs here in Ireland. <b>Please follow me and Riva Slider on Twitter!</b> Feel free to fire any questions my way, I'd be happy to answer them.</p>
-<p style="margin-top: 20px;">
-    <span style="margin-right: 10px;"><a href="https://twitter.com/matthewruddycom" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @matthewruddycom</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></span>
-    <a href="https://twitter.com/rivaslider" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @rivaslider</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
