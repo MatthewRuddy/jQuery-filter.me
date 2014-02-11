@@ -20,7 +20,7 @@
 <p>Adding the filters is easy. As normal, you'll have to load the scripts (and jQuery) into your site's <code>&#60;head&#62;</code> or in the footer before the <code>&#60;/body&#62;</code>. To intiate the filters, use the script below:</p>
 <p><pre><code>&#60;script type="text/javascript"&#62;
 jQuery(document).ready(function($) {
-    $('.filter').filterme();
+    $('.filter').filterMe();
 });
 &#60;/script&#62;</code></pre></p>
 <p>Then we add the filter class to the image, alongside the filter data attribute.</p>
@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 
 <h4>Additional Options</h4>
 <p>Below are the options you can set when initiating the plugin.</p>
-<p><pre><code>$('.filter').filterme({
+<p><pre><code>$('.filter').filterMe({
     desaturate: false   // Value from 0 - 1. 1 equals full desaturation (black & white).
     curves: false       // Object of RGB values in production script, or string name of curves .acv file in development script. 
     vignette: false     // 'true' or 'false'. Add a vignette to the image.
